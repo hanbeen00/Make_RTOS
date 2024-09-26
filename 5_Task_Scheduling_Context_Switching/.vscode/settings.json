@@ -1,0 +1,8 @@
+{
+    "makefile.configureOnOpen": true,
+    "files.associations": {
+        "haltimer.h": "c",
+        "stdbool.h": "c",
+        "kernel.h": "c"
+    }
+}

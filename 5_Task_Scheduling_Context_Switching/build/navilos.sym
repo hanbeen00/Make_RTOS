@@ -1,0 +1,102 @@
+
+build/navilos.axf:     file format elf32-littlearm
+
+SYMBOL TABLE:
+00000000 l    d  .text	00000000 .text
+00001558 l    d  .data	00000000 .data
+00001568 l    d  .bss	00000000 .bss
+00000000 l    d  .ARM.attributes	00000000 .ARM.attributes
+00000000 l    d  .comment	00000000 .comment
+00000000 l    d  .debug_line	00000000 .debug_line
+00000000 l    d  .debug_info	00000000 .debug_info
+00000000 l    d  .debug_abbrev	00000000 .debug_abbrev
+00000000 l    d  .debug_aranges	00000000 .debug_aranges
+00000000 l    d  .debug_str	00000000 .debug_str
+00000000 l    d  .debug_frame	00000000 .debug_frame
+00000000 l    df *ABS*	00000000 build/Entry.os
+00000020 l       .text	00000000 reset_handler_addr
+00000024 l       .text	00000000 undef_handler_addr
+00000028 l       .text	00000000 svc_handler_addr
+0000002c l       .text	00000000 pftch_abt_handler_addr
+00000030 l       .text	00000000 data_abt_handler_addr
+00000034 l       .text	00000000 irq_handler_addr
+00000038 l       .text	00000000 fiq_handler_addr
+0000003c l       .text	00000000 reset_handler
+000000b8 l       .text	00000000 dummy_handler
+00000000 l    df *ABS*	00000000 Main.c
+0000012c l     F .text	0000001c Hw_init
+00000148 l     F .text	000000a0 Printf_test
+00000214 l     F .text	000000b0 Kernel_init
+000001e8 l     F .text	0000002c Timer_test
+00000000 l    df *ABS*	00000000 Handler.c
+00000000 l    df *ABS*	00000000 Regs.c
+00000000 l    df *ABS*	00000000 Interrupt.c
+00001568 l       .bss	000003fc sHandlers
+00000000 l    df *ABS*	00000000 Uart.c
+0000095c l     F .text	00000030 interrupt_handler
+00000000 l    df *ABS*	00000000 Timer.c
+00001964 l       .bss	00000004 internal_1ms_counter
+00000b54 l     F .text	00000048 interrupt_handler
+00000000 l    df *ABS*	00000000 stdlib.c
+00000000 l    df *ABS*	00000000 stdio.c
+00001968 l       .bss	00000400 printf_buf
+00000000 l    df *ABS*	00000000 armcpu.c
+00000000 l    df *ABS*	00000000 task.c
+00001d68 l       .bss	00000200 sTask_list
+00001f68 l       .bss	00000004 sCurrent_tcb
+00001f6c l       .bss	00000004 sNext_tcb
+00001f70 l       .bss	00000004 sAllocated_tcb_index
+00001f74 l       .bss	00000004 sCurrent_tcb_index
+00001370 l     F .text	00000020 Restore_context
+00001390 l     F .text	00000080 Scheduler_round_robin_algorithm
+00001350 l     F .text	00000020 Save_context
+00000000 l    df *ABS*	00000000 Kernel.c
+00000000 l    df *ABS*	00000000 _udivsi3.o
+00001440 l       .text	00000000 .udivsi3_skip_div0_test
+00000000 l    df *ABS*	00000000 _dvmd_tls.o
+000002c4 g     F .text	00000030 User_task0
+00001344 g     F .text	0000000c Kernel_task_context_switching
+00000c98 g     F .text	00000280 vsprintf
+00000be8 g     F .text	00000060 putstr
+0000155c g     O .data	00000004 GicCpu
+000012d0 g     F .text	00000024 Kernel_task_get_current_task_id
+000004a4 g     F .text	0000001c Irq_Handler
+0000003c g       .text	00000000 vector_end
+00001044 g     F .text	0000002c enable_irq
+00000630 g     F .text	000000d4 Hal_interrupt_disable
+00001070 g     F .text	0000002c enable_fiq
+00001440 g     F .text	000000f4 .hidden __udivsi3
+00000000 g       .text	00000000 vector_start
+000012f4 g     F .text	00000050 Kernel_task_scheduler
+00000860 g     F .text	0000005c Hal_uart_put_char
+00000f18 g     F .text	00000124 utoa
+00001564 g     O .data	00000004 Timer
+00001558 g     O .data	00000004 Uart
+00001560 g     O .data	00000004 GicDist
+000004c0 g     F .text	00000008 Fiq_Handler
+000007c0 g     F .text	000000a0 Hal_uart_init
+0000073c g     F .text	00000084 Hal_interrupt_run_handler
+00001554  w    F .text	00000004 .hidden __aeabi_ldiv0
+000008bc g     F .text	000000a0 Hal_uart_get_char
+00000704 g     F .text	00000038 Hal_interrupt_register_handler
+000002f4 g     F .text	00000030 User_task1
+000000d4 g     F .text	00000058 main
+00001440 g     F .text	00000000 .hidden __aeabi_uidiv
+0000123c g     F .text	00000094 Kernel_task_create
+0000098c g     F .text	000001a4 Hal_timer_init
+00001200 g     F .text	0000003c Kernel_task_start
+00000564 g     F .text	000000cc Hal_interrupt_enable
+00000b9c g     F .text	0000004c delay
+00000324 g     F .text	00000030 User_task2
+00001534 g     F .text	00000020 .hidden __aeabi_uidivmod
+00001418 g     F .text	00000014 Kernel_start
+000010f4 g     F .text	0000010c Kernel_task_init
+0000142c g     F .text	00000014 Kernel_yield
+000010c8 g     F .text	0000002c disable_fiq
+00001554  w    F .text	00000004 .hidden __aeabi_idiv0
+00000c48 g     F .text	00000050 debug_printf
+00000b30 g     F .text	00000024 Hal_timer_get_1ms_counter
+0000109c g     F .text	0000002c disable_irq
+000004c8 g     F .text	0000009c Hal_interrupt_init
+
+
