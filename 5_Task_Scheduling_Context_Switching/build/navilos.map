@@ -273,33 +273,33 @@ LOAD linker stubs
  .debug_aranges
                 0x0000000000000198       0x20 /usr/lib/gcc/arm-none-eabi/9.2.1/libgcc.a(_dvmd_tls.o)
 
-.debug_str      0x0000000000000000      0xbdf
- .debug_str     0x0000000000000000       0x45 build/Entry.os
- .debug_str     0x0000000000000045      0x163 build/Main.o
-                                        0x1ad (size before relaxing)
- .debug_str     0x00000000000001a8       0x27 build/Handler.o
-                                        0x154 (size before relaxing)
- .debug_str     0x00000000000001cf      0x5ac build/Regs.o
-                                        0x6e9 (size before relaxing)
- .debug_str     0x000000000000077b       0xbb build/Interrupt.o
-                                        0x3f8 (size before relaxing)
- .debug_str     0x0000000000000836       0x61 build/Uart.o
-                                        0x489 (size before relaxing)
- .debug_str     0x0000000000000897       0x58 build/Timer.o
-                                        0x296 (size before relaxing)
- .debug_str     0x00000000000008ef       0x18 build/stdlib.o
-                                        0x14e (size before relaxing)
- .debug_str     0x0000000000000907       0x7c build/stdio.o
-                                        0x1cc (size before relaxing)
- .debug_str     0x0000000000000983       0x3b build/armcpu.o
-                                         0xff (size before relaxing)
- .debug_str     0x00000000000009be      0x179 build/task.o
-                                        0x2b7 (size before relaxing)
- .debug_str     0x0000000000000b37       0x2a build/Kernel.o
-                                        0x157 (size before relaxing)
- .debug_str     0x0000000000000b61       0x7e /usr/lib/gcc/arm-none-eabi/9.2.1/libgcc.a(_udivsi3.o)
+.debug_str      0x0000000000000000      0xbf9
+ .debug_str     0x0000000000000000       0x5f build/Entry.os
+ .debug_str     0x000000000000005f      0x163 build/Main.o
+                                        0x1c7 (size before relaxing)
+ .debug_str     0x00000000000001c2       0x27 build/Handler.o
+                                        0x16e (size before relaxing)
+ .debug_str     0x00000000000001e9      0x5ac build/Regs.o
+                                        0x703 (size before relaxing)
+ .debug_str     0x0000000000000795       0xbb build/Interrupt.o
+                                        0x412 (size before relaxing)
+ .debug_str     0x0000000000000850       0x61 build/Uart.o
+                                        0x4a3 (size before relaxing)
+ .debug_str     0x00000000000008b1       0x58 build/Timer.o
+                                        0x2b0 (size before relaxing)
+ .debug_str     0x0000000000000909       0x18 build/stdlib.o
+                                        0x168 (size before relaxing)
+ .debug_str     0x0000000000000921       0x7c build/stdio.o
+                                        0x1e6 (size before relaxing)
+ .debug_str     0x000000000000099d       0x3b build/armcpu.o
+                                        0x119 (size before relaxing)
+ .debug_str     0x00000000000009d8      0x179 build/task.o
+                                        0x2d1 (size before relaxing)
+ .debug_str     0x0000000000000b51       0x2a build/Kernel.o
+                                        0x171 (size before relaxing)
+ .debug_str     0x0000000000000b7b       0x7e /usr/lib/gcc/arm-none-eabi/9.2.1/libgcc.a(_udivsi3.o)
                                          0x8a (size before relaxing)
- .debug_str     0x0000000000000bdf       0x8a /usr/lib/gcc/arm-none-eabi/9.2.1/libgcc.a(_dvmd_tls.o)
+ .debug_str     0x0000000000000bf9       0x8a /usr/lib/gcc/arm-none-eabi/9.2.1/libgcc.a(_dvmd_tls.o)
 
 .debug_frame    0x0000000000000000      0x5bc
  .debug_frame   0x0000000000000000       0xf8 build/Main.o
