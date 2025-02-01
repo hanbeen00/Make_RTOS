@@ -3,8 +3,10 @@
 부팅부터 OS 기본기능까지 구현하는 프로젝트
 
 - 빌드
-make clean
-make
+
+1. make clean
+2. make
 
 - 실행
-make run
+
+1. make run
